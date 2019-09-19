@@ -55,6 +55,12 @@
   align-items: center;
 }
 
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
 .photo-grid-item {
   border: 1px solid #FFF;
   width: 300px;
@@ -67,12 +73,6 @@
 
 .last-item {
   order: -1;
-}
-
-.social,
-.subscribe {
-  align-self: flex-end;
-  margin-bottom: 20px;
 }
 
 .footer {
@@ -92,4 +92,10 @@
   background-color: #5995DA;
   flex: initial;
   width: 300px;
+}
+
+.links:hover {
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;
 }
