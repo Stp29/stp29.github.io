@@ -6,6 +6,8 @@
 
 body {
   height: 1200px;
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .container {
